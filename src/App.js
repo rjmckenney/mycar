@@ -1,7 +1,12 @@
 import React from "react";
+import Car from "./components/Car";
 
 const App = () => {
-	return <h1>My Car</h1>;
+	return (
+		<div>
+			<Car />
+		</div>
+	);
 };
 
 export default App;
